@@ -4,7 +4,7 @@ import time
 
 client = OpenAI()
 
-CV_ASSISTANT_ID = 'asst_m9Idn8BJqVZY6fbUz5wUaCym'  # or a hard-coded ID like "asst-..."
+CV_ASSISTANT_ID = 'ASSISTANT_ID'  # or a hard-coded ID like "asst-..."
 
 #Create Assistant
 def create_assistant(v_name, v_instructions, v_model):
