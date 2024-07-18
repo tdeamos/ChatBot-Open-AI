@@ -13,7 +13,7 @@ def wait_on_run(run, thread):
         time.sleep(0.5)
     return run
 
-MATH_ASSISTANT_ID = 'asst_UDx63Wdov7RJ2Q99OMfBlOTR'  # or a hard-coded ID like "asst-..."
+MATH_ASSISTANT_ID = 'ASSISTANT_ID'  # or a hard-coded ID like "asst-..."
 
 #Retrieve Assistant
 assistant = client.beta.assistants.retrieve(MATH_ASSISTANT_ID)
